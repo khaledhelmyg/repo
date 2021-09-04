@@ -1,0 +1,426 @@
+browser->server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/spa
+server-->browser: HTML-code-(notes)
+browser->server: HTTP GET  https://studies.cs.helsinki.fi/exampleapp/spa.js
+server-->browser: main.js
+
+note over browser:
+browser starts executing js-code
+that requests JSON data from server 
+end note
+
+browser->server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/data.json
+server-->browser: [
+    {
+        "content": "asdd",
+        "date": "2021-09-03T17:46:42.111Z"
+    },
+    {
+        "content": "asdds",
+        "date": "2021-09-03T17:48:14.472Z"
+    },
+    {
+        "content": "asd",
+        "date": "2021-09-03T17:48:40.696Z"
+    },
+    {
+        "content": "testing again",
+        "date": "2021-09-03T17:50:01.547Z"
+    },
+    {
+        "content": "oi",
+        "date": "2021-09-03T18:01:35.264Z"
+    },
+    {
+        "content": "Suzuran!",
+        "date": "2021-09-03T18:21:41.490Z"
+    },
+    {
+        "content": "Another new note",
+        "date": "2021-09-03T18:29:58.858Z"
+    },
+    {
+        "content": "A third new note",
+        "date": "2021-09-03T18:30:13.094Z"
+    },
+    {
+        "content": "Test",
+        "date": "2021-09-03T18:31:08.858Z"
+    },
+    {
+        "content": "SPA version only sends one request!",
+        "date": "2021-09-03T18:40:53.047Z"
+    },
+    {
+        "content": "Test 2: Electric Boogaloo",
+        "date": "2021-09-03T18:43:36.338Z"
+    },
+    {
+        "content": "this is a new note",
+        "date": "2021-09-03T18:54:38.309Z"
+    },
+    {
+        "content": "jee",
+        "date": "2021-09-03T18:59:21.210Z"
+    },
+    {
+        "content": "testest",
+        "date": "2021-09-03T19:13:03.026Z"
+    },
+    {
+        "content": "nakki",
+        "date": "2021-09-03T20:17:37.137Z"
+    },
+    {
+        "content": "xD",
+        "date": "2021-09-03T20:31:36.396Z"
+    },
+    {
+        "content": "what submitting the form looks like",
+        "date": "2021-09-03T20:44:37.669Z"
+    },
+    {
+        "content": "spa?",
+        "date": "2021-09-03T20:50:41.736Z"
+    },
+    {
+        "content": "4 HTTP",
+        "date": "2021-09-03T20:51:10.674Z"
+    },
+    {
+        "content": "U",
+        "date": "2021-09-03T21:37:54.010Z"
+    },
+    {
+        "content": "",
+        "date": "2021-09-03T21:37:59.186Z"
+    },
+    {
+        "content": "",
+        "date": "2021-09-03T21:37:59.828Z"
+    },
+    {
+        "content": "",
+        "date": "2021-09-03T21:38:02.253Z"
+    },
+    {
+        "content": "",
+        "date": "2021-09-03T21:38:03.286Z"
+    },
+    {
+        "content": "",
+        "date": "2021-09-03T21:38:05.346Z"
+    },
+    {
+        "content": "hola",
+        "date": "2021-09-03T21:46:05.698Z"
+    },
+    {
+        "content": "chau",
+        "date": "2021-09-03T21:46:16.001Z"
+    },
+    {
+        "content": "hola",
+        "date": "2021-09-03T21:51:20.789Z"
+    },
+    {
+        "content": "bin",
+        "date": "2021-09-03T22:59:06.842Z"
+    },
+    {
+        "content": "bin 2",
+        "date": "2021-09-03T23:29:05.657Z"
+    },
+    {
+        "content": "bin 3",
+        "date": "2021-09-03T23:29:47.855Z"
+    },
+    {
+        "content": "sdsdsd",
+        "date": "2021-09-03T23:46:50.569Z"
+    },
+    {
+        "content": "sdfsdfasf",
+        "date": "2021-09-04T00:02:09.924Z"
+    },
+    {
+        "content": "sdfsdfasf",
+        "date": "2021-09-04T00:18:57.875Z"
+    },
+    {
+        "content": "asd",
+        "date": "2021-09-04T00:19:18.099Z"
+    },
+    {
+        "content": "asdsad",
+        "date": "2021-09-04T00:27:23.779Z"
+    },
+    {
+        "content": "asdasdsa",
+        "date": "2021-09-04T00:31:25.978Z"
+    },
+    {
+        "content": "9",
+        "date": "2021-09-04T00:43:44.006Z"
+    },
+    {
+        "content": "this is a new note",
+        "date": "2021-09-04T00:56:15.854Z"
+    },
+    {
+        "content": "yo mama",
+        "date": "2021-09-04T00:58:33.989Z"
+    },
+    {
+        "content": "fdasf",
+        "date": "2021-09-04T01:02:10.090Z"
+    },
+    {
+        "content": "f",
+        "date": "2021-09-04T01:05:03.921Z"
+    },
+    {
+        "content": "fda",
+        "date": "2021-09-04T01:14:52.267Z"
+    },
+    {
+        "content": "test",
+        "date": "2021-09-04T01:20:27.410Z"
+    },
+    {
+        "content": "Hello from Texas!",
+        "date": "2021-09-04T01:23:57.582Z"
+    },
+    {
+        "content": "Only one request this time.",
+        "date": "2021-09-04T01:39:40.790Z"
+    },
+    {
+        "content": "ok?",
+        "date": "2021-09-04T05:23:24.588Z"
+    },
+    {
+        "content": "adfg",
+        "date": "2021-09-04T05:51:24.936Z"
+    },
+    {
+        "content": "really?",
+        "date": "2021-09-04T05:57:45.120Z"
+    },
+    {
+        "content": "N",
+        "date": "2021-09-04T06:26:07.812Z"
+    },
+    {
+        "content": "testsetset",
+        "date": "2021-09-04T06:30:19.158Z"
+    },
+    {
+        "content": "ytredsfg",
+        "date": "2021-09-04T06:30:54.206Z"
+    },
+    {
+        "content": "kissa",
+        "date": "2021-09-04T06:55:55.997Z"
+    },
+    {
+        "content": "add",
+        "date": "2021-09-04T07:20:39.384Z"
+    },
+    {
+        "content": "gib job",
+        "date": "2021-09-04T07:34:16.969Z"
+    },
+    {
+        "content": "test",
+        "date": "2021-09-04T07:35:07.134Z"
+    },
+    {
+        "content": "add another",
+        "date": "2021-09-04T07:40:14.147Z"
+    },
+    {
+        "content": "tu lu lu lu",
+        "date": "2021-09-04T07:41:53.237Z"
+    },
+    {
+        "content": "spa test",
+        "date": "2021-09-04T07:49:13.933Z"
+    },
+    {
+        "content": ":DDDDD",
+        "date": "2021-09-04T07:53:15.525Z"
+    },
+    {
+        "content": "binland",
+        "date": "2021-09-04T07:53:35.507Z"
+    },
+    {
+        "content": "asd",
+        "date": "2021-09-04T08:38:23.530Z"
+    },
+    {
+        "content": "new_note",
+        "date": "2021-09-04T09:15:21.415Z"
+    },
+    {
+        "content": "neww",
+        "date": "2021-09-04T09:30:51.544Z"
+    },
+    {
+        "content": "tyes",
+        "date": "2021-09-04T10:07:58.001Z"
+    },
+    {
+        "content": "ikr",
+        "date": "2021-09-04T10:46:06.204Z"
+    },
+    {
+        "content": "dsa",
+        "date": "2021-09-04T11:11:59.136Z"
+    },
+    {
+        "content": "dsa",
+        "date": "2021-09-04T11:25:23.462Z"
+    },
+    {
+        "content": "we",
+        "date": "2021-09-04T11:25:24.076Z"
+    },
+    {
+        "content": "wq",
+        "date": "2021-09-04T11:25:24.513Z"
+    },
+    {
+        "content": "we",
+        "date": "2021-09-04T11:25:24.989Z"
+    },
+    {
+        "content": "r",
+        "date": "2021-09-04T11:25:25.198Z"
+    },
+    {
+        "content": "dsada",
+        "date": "2021-09-04T11:26:29.344Z"
+    },
+    {
+        "content": "hh",
+        "date": "2021-09-04T11:39:38.056Z"
+    },
+    {
+        "content": "hello",
+        "date": "2021-09-04T11:48:15.138Z"
+    },
+    {
+        "content": "a",
+        "date": "2021-09-04T11:48:21.885Z"
+    },
+    {
+        "content": "hi",
+        "date": "2021-09-04T12:18:57.171Z"
+    },
+    {
+        "content": "mn",
+        "date": "2021-09-04T12:25:24.001Z"
+    },
+    {
+        "content": "",
+        "date": "2021-09-04T12:31:16.105Z"
+    },
+    {
+        "content": "i dont get it :\\",
+        "date": "2021-09-04T12:31:33.412Z"
+    },
+    {
+        "content": "adasd",
+        "date": "2021-09-04T12:32:55.905Z"
+    },
+    {
+        "content": "sa",
+        "date": "2021-09-04T12:38:22.698Z"
+    },
+    {
+        "content": "it's okay",
+        "date": "2021-09-04T12:43:07.019Z"
+    },
+    {
+        "content": "\\(^o^)/~ Wo hu~ input test",
+        "date": "2021-09-04T12:43:59.910Z"
+    },
+    {
+        "content": "keyboard check",
+        "date": "2021-09-04T12:46:14.491Z"
+    },
+    {
+        "content": "",
+        "date": "2021-09-04T12:46:27.355Z"
+    },
+    {
+        "content": "all",
+        "date": "2021-09-04T12:48:30.388Z"
+    },
+    {
+        "content": "khaked",
+        "date": "2021-09-04T12:52:56.165Z"
+    },
+    {
+        "content": "my",
+        "date": "2021-09-04T12:53:13.386Z"
+    },
+    {
+        "content": "i dont get it :\\",
+        "date": "2021-09-04T13:01:14.978Z"
+    },
+    {
+        "content": "jeppis",
+        "date": "2021-09-04T13:21:49.039Z"
+    },
+    {
+        "content": "note",
+        "date": "2021-09-04T13:32:07.508Z"
+    },
+    {
+        "content": "all",
+        "date": "2021-09-04T13:33:50.218Z"
+    },
+    {
+        "content": "nakki",
+        "date": "2021-09-04T13:44:33.337Z"
+    },
+    {
+        "content": "hi",
+        "date": "2021-09-04T13:47:32.848Z"
+    },
+    {
+        "content": "hi",
+        "date": "2021-09-04T13:48:03.831Z"
+    },
+    {
+        "content": ":D",
+        "date": "2021-09-04T13:52:40.118Z"
+    },
+    {
+        "content": "helloo",
+        "date": "2021-09-04T13:53:36.520Z"
+    },
+    {
+        "content": ":D",
+        "date": "2021-09-04T14:13:59.621Z"
+    },
+    {
+        "content": "note",
+        "date": "2021-09-04T14:27:49.247Z"
+    }
+]    
+    
+      
+
+note over browser:
+browser executes the event handler
+that renders notes to display
+end note
+
+
+
+
+
+
